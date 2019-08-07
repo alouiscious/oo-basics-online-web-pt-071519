@@ -37,7 +37,12 @@ class Book
     @genre
   end
   
+  def turn_page
+    puts "Flipping page...wow, you read fast!"
+  end
+  
 end
 
-# Book.new
+book = Book.new
+book.turn_page
 # Book.title
